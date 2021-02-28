@@ -1,0 +1,90 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.nav{
+  background-color: #eee;
+  padding: 10px;
+}
+h1 {
+  font-size: 20px;
+}
+.fas{
+  display: none;
+    color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+.flex{
+  display: flex;
+}
+.nav h1{
+  padding: 5px;
+}
+.nav-item li{
+  padding: 5px;
+  list-style: none;
+}
+.nav-item li a{
+  color: black;
+  text-decoration:none;
+}
+.space-between{
+    justify-content: space-between;
+}
+.banner{
+  background-color: #ccdced;
+  padding: 100px;
+}
+.banner h2, section h3{
+  text-align: center;
+}
+.content-box{
+  width: 600px;
+  height: 200px;
+  background: #8899a9;
+  margin: 0 10px 20px 10px;
+  text-align: center;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-box p {
+  margin-top: 10px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.button button{
+    background: #dfedfe;
+  border: 0;
+  padding: 10px;
+}
+.font-bold{
+  font-weight: bold;
+}
+.Section-Title{
+  padding: 20px;
+}
+@media(min-width: 800px) and (max-width: 1200px ) {
+  .content-box{
+    width: 45%;
+  }
+}
+@media(min-width: 500px) and (max-width: 800px ) {
+  .nav-item{
+    display: none;
+  }
+  .nav-item li{
+    display: block;
+  }
+  .fas{
+    display: block;
+  }
+  .content-box{
+    width: 45%;
+  }
+}
