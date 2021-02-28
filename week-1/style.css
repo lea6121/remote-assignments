@@ -5,7 +5,7 @@ h1{
   font-size: 20px;
 }
 .nav{
-  background-color: #D9D9D9;
+  background-color: #eee;
   padding: 10px;
 }
 .ham{
@@ -32,7 +32,7 @@ h1{
     justify-content: space-between;
 }
 .banner{
-  background-color: #97c7f7;
+  background-color: #ccdded;
   padding: 100px;
 }
 .banner h2, section h3{
@@ -41,9 +41,12 @@ h1{
 .content-box{
   width: 600px;
   height: 200px;
-  background: #878787;
+  background: #8899a9;
   margin: 0 10px 20px 10px;
   text-align: center;
+}
+.content-box p{
+  margin-top: 10px;
 }
 .content{
   display: flex;
@@ -55,9 +58,10 @@ h1{
   justify-content: center;
 }
 .button button{
-    background: #97c7f7;
+  background: #daefff;
   border: 0;
   padding: 10px;
+  margin-bottom: 30px;
 }
 .font-bold{
   font-weight: bold;
